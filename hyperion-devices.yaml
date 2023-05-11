@@ -1,12 +1,13 @@
-hyperion-api:
-  connect: tcp:127.0.0.1:7000
-  listen: tcp:0.0.0.0:7000
-  type: proxy
-kibana:
-  connect: tcp:127.0.0.1:5601
-  listen: tcp:0.0.0.0:5601
-  type: proxy
-rabbitmq:
-  connect: tcp:127.0.0.1:15672
-  listen: tcp:0.0.0.0:15672
-  type: proxy
+devices:
+  hyperion-api:
+    connect: tcp:127.0.0.1:7000
+    listen: tcp:0.0.0.0:7000
+    type: proxy
+  kibana:
+    connect: tcp:127.0.0.1:5601
+    listen: tcp:0.0.0.0:5601
+    type: proxy
+  rabbitmq:
+    connect: tcp:127.0.0.1:15672
+    listen: tcp:0.0.0.0:15672
+    type: proxy
